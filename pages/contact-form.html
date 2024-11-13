@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Inc.</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="../css/abt.css">
+    <link rel="stylesheet" href="../css/cont-page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans&family=Montserrat:wght@100&family=Open+Sans&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link
+      rel="icon"
+      href="https://cdn.discordapp.com/attachments/1133770950404485201/1135612785787666593/IMG_4255.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans&family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans&family=Montserrat:wght@100&family=Nova+Square&family=Open+Sans&family=Oswald&family=Poppins&family=Prompt:wght@800&family=Roboto&family=Roboto+Condensed&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans&family=Montserrat:wght@100&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans&family=Montserrat:wght@100&family=Open+Sans&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="nav">
+        <nav>
+            <div class="logo">
+              <img
+                src="https://cdn.discordapp.com/attachments/1133770950404485201/1135612785787666593/IMG_4255.png"
+                alt=""
+              />
+              <a href="../index.html"><h2>Prime Inc.</h2></a>
+            </div>
+            <div class="toggles">
+                <a href="./drive_for_us.html">
+
+                    <button class="driver-app">DRIVER APPLICATION</button>
+                </a>
+              <button class="apply">Apply Now</button>
+              <div class="nav-toggle icon flex">
+                <i class="fa-solid fa-bars ham"></i>
+                <p class="ham">MENU</p>
+                <div class="icon x none">
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+              </div>
+            </div>
+            <div class="menu appear">
+              <div class="menu-links">
+                <div class="above-links links-cont">
+                  <ul>
+                    <h1>
+                      <li><a href="./about.html">Why Prime</a></li>
+                    </h1>
+                    <li>Since our founding in 1970, Prime has been an innovative regional and Over the Road (OTR) trucking company, paving the way for the rest of the trucking industry. Explore our history, equipment, facilities and one-of-a-kind company culture.</li>
+                  </ul>
+                  <ul>
+                    <h1>
+                      <li><a href="./drive_for_us.html">Drive for Prime</a></li>
+                    </h1>
+                    <li>Our company drivers may choose to enroll in one of our insurance plans, which includes medical coverage, dental insurance, life insurance and additional voluntary benefits. Our benefits specialists can assist you with choosing the right plan.
+                    </li>
+                  </ul>
+                  <ul>
+                    <h1>
+                      <li><a href="./contact-form.html">Contact</a></li>
+                    </h1>
+                    <li>Contact us for further conversation</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+      </section>
+      
+      <section class="form-cont">
+        <div class="content">
+          <i class="fa-solid fa-calendar"></i>
+          <h2>Get In Touch</h2>
+          <h1>PAG TRACKING</h1>
+          <p>For general inquiries fill out our form </p>
+        </div>
+        <div class="form">
+          <form action="">
+            <div class="name">
+              <div class="frst inputbox">
+                <input type="text" onkeydown="return /[a-z]/i.test(event.key)" required="required" class="input" placeholder="John">
+                <span class="span">First Name</span>
+              </div>
+              <div class="last inputbox">
+                <input type="text" placeholder="Doe" onkeydown="return /[a-z]/i.test(event.key)" required="required" class="input">
+                <span class="span" >Last Name</span>
+              </div>
+            </div>
+            <div class="email big">
+              <div class="email big inputbox">
+                <input type="email"  required="required" class="input" oninvalid="this.setCustomValidity('Please use a valid email address. For example: yourname@domain.com ')" oninput="this.setCustomValidity('')" placeholder="yourname@domain.com"
+                >
+                <span class="span">Email</span>
+              </div>
+            </div>
+            <div class="phone big">
+              <div class="phone big inputbox">
+                <input type="tel"  class="input" maxlength="15" onkeydown="return /[0-9]/i.test(event.key)  || event.key === 'Backspace'"  placeholder="+1 (669) 307-7577 (optional)">
+                <span>Phone</span>
+              </div>
+            </div>
+            <div class="message">
+              <textarea  maxlength="1000" class="input" required name="" id="" cols="30" rows="10" placeholder="Your message goes here (upto 2000 characters)"></textarea>
+              <span>Message</span>
+            </div>
+            <input class="submit" type="submit" value="submit">
+          </form>
+        </div>
+      </section>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

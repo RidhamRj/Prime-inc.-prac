@@ -1,0 +1,153 @@
+.contact {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #c3c3c3;
+    align-items: center;
+
+}
+.contact .contact-ques{
+    height: 50vh;
+    background: linear-gradient(50deg, #3b266e 58%, #bb4498 120%);
+   
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.contact .contact-ques h2{
+    font-family: "Open Sans";
+    color:#BF9FCB;
+    font-size: 21px;
+}
+.contact .contact-ques h1{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    overflow: hidden;
+    font-weight: lighter;
+}
+.contact .contact-ques .cnt-btn button{
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 2px solid #bb4498;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact .cnt-links{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+
+    justify-content: center;
+    height: 10vh;
+    gap: 2rem;
+}
+.contact .cnt-links .links-cont{
+    border-right: 3px solid white;
+    padding-right: 2rem;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact .cnt-links .links-cont:last-child{
+    border: none;
+}
+.contact .cnt-links .links-cont a{
+    color: white;
+    display: flex;
+    overflow: hidden;
+    gap: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+}
+.contact .cnt-links .links-cont p{
+    color: #3b266e;
+}
+.contact .cnt-links .links-cont h3{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: lighter;
+    font-size: 1.7rem;
+}
+.contact .cnt-links .links-cont .links i{
+    font-size: 25px;
+}
+.contact hr{
+    color: white;
+    background-color: white;
+    border: none;
+    height: 2px;
+    margin-top: -4rem;
+    margin-bottom: 3rem;
+    width: 80vw;
+}
+.contact .social{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    gap: 15rem;
+    width: 100%;
+    color: white;
+    padding-bottom: 5rem;
+}
+.contact .social .social-links{
+    font-size: 20px;
+    gap: 2rem;
+    display: flex;
+   
+
+}
+.contact .social i{
+    color: gray;
+    background-color: white;
+    padding: 10px;
+    border-radius: 100%;
+}
+@media screen and (max-width:480px) {
+    .contact .contact-ques h1{
+        font-size: 3rem;
+      }
+      .contact .cnt-links{
+        display: flex;
+        margin-top: 5rem;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+      }
+      .contact .cnt-links .links-cont{
+        border: none;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+      }
+      .contact hr{
+        margin: 1rem;
+      }
+      .contact .social{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+        padding-bottom: 0;
+      }
+      .contact .social p{
+        font-size: 12px;
+      }
+      .contact .social i{
+        font-size: 15px;
+        padding: 10px;
+      }
+      .contact .social{
+        padding-bottom: 5rem;
+      }
+}
+

@@ -1,0 +1,444 @@
+
+ 
+  .abt {
+    display: flex;
+  }
+  .abt-image-sec {
+    width: 60vw;
+    height: 110vh;
+   
+    overflow: hidden;
+    position: relative;
+  }
+  .abt .abt-image-sec{
+    background-image: url(https://www.primeinc.com/wp-content/uploads/2019/05/prime-truck-on-purple-bg_shadow.jpg);
+  }
+  .abt-image-sec img {
+  }
+  .abt-content {
+    background-color: #b9b9bb;
+    width: 40vw;
+    height: 110vh;
+   
+    filter: brightness(130%);
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .abt-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5rem;
+  }
+  .icons {
+    color: rgba(97, 98, 99, 0.2);
+    font-size: 40px;
+  }
+  .abt-cont h2 {
+    color: #983179;
+    font-weight: lighter;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0px;
+  }
+  .abt-cont h1,
+  .cont h1,
+  .drive-cont h1,
+  .services h1 ,
+  .leasing h1{
+    overflow: hidden;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    color: #301e5a;
+    font-weight: lighter;
+    line-height: 60px;
+  }
+  .abt-cont p,
+  .cont p,
+  .drive-cont p {
+    font-size: 16px;
+    color: #6a6b6e;
+    margin-right: 2rem;
+    font-family: "Open Sans", sans-serif;
+  }
+  .abt-cont button,
+  .cont button,
+  .drive-cont button,
+  .services button ,
+  .leasing button{
+    padding: 20px 40px;
+    margin-top: 15px;
+    border: none;
+    background-color: #301e5a;
+    color: white;
+  }
+  
+ 
+  .global {
+    width: 100vw;
+    height: 110vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+   
+   
+  }
+  .global .img-sec {
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    top: 0;
+    left: 0;
+    z-index: -100;
+  }
+  .global .cont {
+    z-index: 1;
+    margin: 7rem;
+    width: 50%;
+  }
+  .global .cont .globe-cont,
+  .drive-for-us .drive-content,
+  .services .brokerage-content,
+  .services .power-content ,
+  .lease-content{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .cont h2,
+  .drive-cont h2,
+  .services h2 ,
+  .lease-cont h2{
+    color: #d450ac;
+    font-weight: lighter;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0px;
+    font-size: 21px;
+  }
+  
+  .drive-for-us {
+    display: flex;
+    width: 100vw;
+    background-color: #edeeef;
+   
+    gap: 3.5rem;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+  }
+  .drive-for-us .img-cont {
+    width: 40vw;
+   
+   
+    height: 110vh;
+    overflow: hidden;
+    background-image: url(https://www.primeinc.com/wp-content/uploads/2019/04/junior-in-front-of-truck-shadow.jpg);
+  }
+  .drive-for-us .img-cont img {
+    width: 100%;
+    filter: brightness(90%);
+  }
+  .drive-for-us .drive-cont {
+    width: 48vw;
+    z-index: 1;
+    margin-left: 7rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .drive-for-us .drive-cont .drive-content p,
+  .services p {
+    color: #90929a;
+  }
+  
+ 
+  
+  .brokerage {
+    display: flex;
+    width: 100vw;
+   
+   
+    gap: 3.5rem;
+   
+    justify-content: center;
+    align-items: center;
+  }
+  .services .brokerage {
+    width: 100vw;
+   
+  }
+  .services .brokerage .brokerage-cont {
+    width: 35vw;
+    z-index: 1;
+    margin-left: 7rem;
+    margin-bottom: 7rem;
+    margin-top: 7rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .services .img-sec img {
+    height: 30vh;
+  }
+  .services .power-fleet {
+    display: flex;
+    width: 100vw;
+   
+   
+    gap: 3.5rem;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .services .power-fleet .power-cont {
+    width: 32vw;
+    z-index: 1;
+    margin-right: 7rem;
+    margin-bottom: 7rem;
+   
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .services .power-fleet .img-sec {
+    margin-left: -1vw;
+  }
+  
+ 
+  
+  .leasing {
+      display: flex;
+      width: 100vw;
+      background-color: #edeeef6a;
+     
+      gap: 3.5rem;
+      flex-direction: row-reverse;
+      justify-content: start;
+      align-items: center;
+    }
+    .leasing .img-cont {
+      width: 60vw;
+     
+     
+      height: 110vh;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      overflow: hidden;
+    }
+    .leasing .img-cont img {
+      width: 739px;
+      filter: brightness(90%);
+    }
+    .leasing .lease-cont {
+      width: 40vw;
+      z-index: 1;
+      margin-left: 7rem;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .leasing .lease-cont .lease-content p,
+    .services p {
+      color: #90929a;
+    }
+    
+   
+      .equipment-sales{
+          height: 110vh;
+          position: relative;
+          overflow: hidden;
+      }
+      .equipment-sales .bg-img{
+          position: absolute;
+          overflow: hidden;
+          height: 100%;
+          width: 100%;
+          background-image: url(https://www.primeinc.com/wp-content/uploads/2019/04/prime-trucks.jpg);
+          background-position: top center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          filter: brightness(90%);
+      }
+      .equipment-sales .contents{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content:baseline;
+          margin-top: 5rem;
+          align-items: center;
+          gap: 20px;
+          color: white;
+      }
+  .equipment-sales i{
+     
+      font-size: 40px;
+  }
+  .equipment-sales h4{
+      font-family: "Poppins",sans-serif;
+      letter-spacing: 3px;
+      font-size: 1.2rem;
+  }
+  .equipment-sales h1{
+    font-family: "Bebas Neue", sans-serif;
+     
+      font-size: 4rem;
+      font-weight: lighter;
+      letter-spacing: 2px;
+  }
+  .equipment-sales p{
+      width: 60vw;
+      text-align: center;
+      font-size: 16px;
+      font-family: "Open Sans",sans-serif;
+  }
+  @media screen and (max-width:480px) {
+      .abt {
+        display: flex;
+        flex-direction: column;
+      }
+      .abt .abt-image-sec {
+        width: 100vw;
+        height: 70vh;
+       
+      }
+      .abt .abt-image-sec img {
+        width: 200%;
+        height: 100%;
+        margin-left: -205px;
+      }
+      .abt .abt-content {
+        width: auto;
+        height: 90vh;
+        overflow: hidden;
+      }
+      .abt .abt-cont {
+        margin: 3rem;
+      }
+      .abt .abt-cont h2 {
+        font-size: 1.2rem;
+      }
+      .abt .abt-cont h1 {
+        font-size: 2.5rem;
+        line-height: 40px;
+        width: 90%;
+       
+      }
+      .abt .abt-cont p {
+       
+        margin-right: 0.1rem;
+      }
+      .global {
+        flex-direction: column;
+      }
+      .truck-sec {
+        overflow: hidden;
+        height: 100%;
+      }
+      .truck-sec img {
+       
+        left: 0;
+        filter: brightness(100%);
+        width: 320px;
+        height: 712px;
+      }
+      .global .cont {
+        width: 80vw;
+        margin-left: 8rem;
+       
+      }
+      .global {
+        justify-content: center;
+       
+        height: 100%;
+        width: 100%;
+      }
+      .global .img-sec {
+       
+        display: none;
+      }
+      .global .img-sec img {
+        height: 100vh;
+      }
+      .globe-cont h2,
+      .drive-content h2 ,
+      .brokerage-content h2,
+      .power-content h2,
+      .leasing h2{
+        margin: 0;
+        font-size: 1.2rem;
+      }
+      .globe-cont h1,
+      .drive-content h1,
+      .brokerage-content h1,
+      .power-content h1 ,
+      .leasing h1{
+        font-size: 2.8rem;
+        line-height: 40px;
+        width: 90%;
+       
+      }
+      .drive-for-us {
+        padding-bottom: 40px;
+        flex-direction: column;
+      }
+      .drive-for-us .img-cont,
+      .leasing .img-cont {
+        width: 100vw;
+        height: 80vh;
+        margin-top: -100px;
+      }
+      .drive-for-us .img-cont img,
+      .leasing .img-cont img {
+        background-position: top center;
+      }
+      .drive-for-us .drive-cont,
+      .leasing .lease-cont {
+        width: 80vw;
+        margin-left: 1rem;
+      }
+      .services .brokerage,
+      .services .power-fleet {
+        flex-direction: column;
+      }
+      .services .brokerage .brokerage-cont,
+      .services .power-fleet .power-cont {
+        margin:5rem 10rem;
+        margin-bottom: 0;
+        width: 80%;
+      }
+      .services .img-sec img {
+        height: auto;
+        max-width: 100%;
+       
+        vertical-align: middle;
+      }
+      .services .brokerage .img-sec {
+        margin-left: 10vw;
+      }
+      .services .power-fleet .img-sec {
+        margin-right: 10vw;
+      }
+      .leasing{
+        padding-top: 5rem;
+        margin-top: 4rem;
+        padding-bottom: 40px;
+        flex-direction: column-reverse;
+      }
+      .equipment-sales h1{
+        font-size: 50px;
+      }
+      .equipment-sales .contents{
+        gap: 5px;
+      }
+      .equipment-sales p{
+        width: 70vw;
+       
+      }
+      
+  }

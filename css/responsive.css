@@ -1,0 +1,74 @@
+@media screen and (max-width: 480px) {
+  nav {
+    /* display: none; */
+    margin: 0 1rem;
+  }
+  nav .logo h2 {
+    font-size: 1rem;
+    width: min-content;
+    /* word-wrap: break-word; */
+    /* display: none; */
+  }
+  nav .toggles {
+    gap: 20px;
+  }
+  nav button {
+    padding: 10px 10px;
+  }
+  nav .toggles .apply {
+    display: block;
+  }
+  nav .driver-app {
+    display: none;
+  }
+  nav .icon p {
+    display: none;
+  }
+  .toggle-hidden{
+    overflow-y: hidden;
+    /* height: 400vh; */
+  }
+  .menu{
+    /* padding-top: 20rem; */
+    /* height:400vh; */
+    /* position: absolute; */
+    overflow-y: scroll;
+    align-items: baseline;
+    justify-content: start;
+  }
+  .menu-links{
+    /* overflow: scroll; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* padding-bottom: 10rem; */
+
+  }
+  .menu .menu-links .links-cont{
+    display: flex;
+    flex-direction: column;
+    /* gap: 2px; */
+  }
+  .menu .menu-links .links-cont ul{
+    border: none;
+  }
+  .sidebar {
+    display: none;
+  }
+  .video-bg {
+    object-fit: cover;
+  }
+  .video-bg .desk-vid {
+    width: auto;
+    display: none;
+  }
+  .video-bg .mobile-vid {
+    width: auto;
+    height: 100%;
+    display: block;
+    filter: brightness(50%);
+  }
+  .video-bg h1 {
+    font-size: 3.2rem;
+  }
+}
